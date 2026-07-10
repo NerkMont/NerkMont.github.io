@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#050505;
+    color:#fff;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+/* HEADER */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:90px;
+    background:#000;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 70px;
+    z-index:999;
+    border-bottom:1px solid #1b1b1b;
+}
+
+.logo img{
+    height:75px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+nav a{
+    color:white;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover,
+nav .active{
+    color:#7bd300;
+}
+
+.btn{
+    background:#7bd300;
+    color:#fff;
+    padding:14px 30px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.btn:hover{
+    background:#65b000;
+}
+
+/* HERO */
+
+.hero{
+    height:100vh;
+    background:url("images/bg.jpg") center/cover;
+    display:flex;
+    align-items:center;
+    position:relative;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.65);
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    width:650px;
+    margin-left:80px;
+}
+
+.hero span{
+    color:#7bd300;
+    font-size:22px;
+}
+
+.hero h1{
+    font-family:'Oswald',sans-serif;
+    font-size:72px;
+    line-height:1.05;
+    margin:20px 0;
+}
+
+.hero h1 span{
+    font-size:72px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#ddd;
+    margin-bottom:40px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+
+.green-btn,
+.dark-btn{
+    padding:18px 35px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.green-btn{
+    background:#7bd300;
+    color:#fff;
+}
+
+.dark-btn{
+    border:2px solid #7bd300;
+    color:#fff;
+}
