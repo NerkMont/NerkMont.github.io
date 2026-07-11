@@ -20,6 +20,25 @@ nav a:hover{color:#7bd300}
     justify-content:center;
     text-align:center;
 }
+.hero h1{
+    font-size:64px;
+    color:#7bd300;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    max-width:700px;
+    margin-bottom:30px;
+}
+
+.hero a{
+    background:#7bd300;
+    color:#fff;
+    padding:14px 30px;
+    border-radius:8px;
+    text-decoration:none;
+}
 .hero h1{font-size:64px;color:#7bd300}
 .hero p{font-size:22px;max-width:700px;margin:20px 0}
 .hero a{background:#7bd300;color:#fff;padding:14px 30px;border-radius:8px;text-decoration:none}
