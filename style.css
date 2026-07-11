@@ -7,20 +7,16 @@ header{position:fixed;top:0;left:0;width:100%;display:flex;justify-content:space
 nav{display:flex;gap:24px}
 nav a{color:#fff;text-decoration:none;font-weight:bold}
 nav a:hover{color:#7bd300}
-.hero{
+    .hero{
     height:100vh;
-    background:
-        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-        url("./gozd.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display:flex;
-    align-items:center;
+    flex-direction:column;
     justify-content:center;
+    align-items:center;
     text-align:center;
-}
-.hero h1{
+    padding:20px;
+    }
+        .hero h1{
     font-size:64px;
     color:#7bd300;
     margin-bottom:20px;
